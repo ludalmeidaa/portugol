@@ -1,0 +1,95 @@
+programa {
+  funcao inicio() {
+    inteiro opcao
+
+    escreva("1\n")
+    escreva("2\n")
+    escreva("3\n")
+    escreva("4\n")
+    escreva("5\n")
+    escreva("6\n")
+    escreva("7\n")
+    escreva("8\n")
+    escreva("9\n")
+    escreva("0\n")
+
+    escreva("Qual o número final da placa do seu veículo? ")
+    leia(opcao)
+
+    escolha (opcao){
+      caso 1:
+      caso 2:
+        escreva("Seu rodízio é segunda-feira")
+        pare
+      caso 3:
+      caso 4:
+        escreva("Seu rodízio é terça-feira")
+        pare
+      caso 5:
+      caso 6:
+        escreva("Seu rodízio é quarta-feira")
+        pare
+      caso 7:
+      caso 8:
+        escreva("Seu rodízio é quinta-feira")
+        pare
+      caso 9:
+      caso 0:
+        escreva("Seu rodízio é sexta-feira")
+        pare
+
+    }
+  }
+}
+
+
+programa {
+  funcao inicio() {
+    inteiro opcao
+    real outro_valor
+
+    escreva("1) Quero doar R$10,00\n")
+    escreva("2) Quero doar R$20,00\n")
+    escreva("3) Quero doar R$30,00\n")
+    escreva("4) Quero doar R$40,00\n")
+    escreva("5) Quero doar R$50,00\n")
+    escreva("6) Quero doar RS100,00\n")
+    escreva("7) Quero doar outro valor.\n")
+    escreva("8) Não gostaria de realizar doação.\n")
+
+    escreva("Qual opção você gostaria de selecionar? ")
+    leia(opcao)
+
+    escolha (opcao){
+      caso 1:
+        escreva("Muito obrigado pela sua doação de R$10,00")
+        pare
+      caso 2:
+        escreva("Muito obrigado pela sua doação de R$20,00")
+        pare
+      caso 3:
+        escreva("Muito obrigado pela sua doação de R$30,00")
+        pare
+      caso 4:
+        escreva("Muito obrigado pela sua doação de R$40,00")
+        pare
+      caso 5:
+        escreva("Muito obrigado pela sua doação de R$50,00")
+        pare
+      caso 6:
+        escreva("Muito obrigado pela sua doação de R$100,00")
+        pare
+      caso 7:
+        escreva("Qual valor você gostaria de doar? ")
+        leia(outro_valor)
+        escreva("Muito obrigado pela sua doação de R$", outro_valor)
+        pare
+      caso 8:
+        escreva("Que pena, caso mude de ideia pode nós ligar.")
+        pare
+
+    }
+  }
+}
+
+
