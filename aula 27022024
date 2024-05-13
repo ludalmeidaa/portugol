@@ -1,0 +1,165 @@
+ // 1 - 
+programa {
+  funcao inicio() {
+    escreva("Olá, mundo")
+  }
+}
+
+// 2 -
+programa {
+  funcao inicio() {
+    escreva("Ludmila")
+  }
+}
+
+// 3 -
+programa {
+  funcao inicio() {
+    cadeia nome 
+    escreva("Qual é o seu nome? ")
+    leia(nome)
+
+    escreva("Seja bem-vindo(a), ", nome, "!")
+
+  }
+}
+
+// 4 -
+programa {
+  funcao inicio() {
+    inteiro a = 5
+    inteiro b = 7
+    inteiro c = 10
+
+    inteiro soma = a + b + c
+
+    escreva("A soma de A + B + C é igual a: ", soma)
+
+  }
+}
+
+// 5 -
+programa {
+  funcao inicio() {
+
+    inteiro primeira_nota
+    inteiro segunda_nota
+
+    escreva("Insira a primeira nota: ")
+    leia(primeira_nota)
+
+    escreva("Insira a segunda nota: ")
+    leia(segunda_nota)
+
+    inteiro media = (primeira_nota + segunda_nota) / 2
+
+    se (media >= 6) {
+      escreva("Aprovado!")
+    } senao { 
+      escreva("Reprovado!")
+    }
+
+  }
+}
+
+// 6 -
+programa {
+  funcao inicio() {
+
+    real primeiro_valor
+    real segundo_valor
+
+    escreva("Insira o primeiro valor: ")
+    leia(primeiro_valor)
+
+    escreva("Insira o segundo valor: ")
+    leia(segundo_valor)
+
+    real soma_dos_valores = primeiro_valor + segundo_valor
+    real subtracao_dos_valores = primeiro_valor - segundo_valor
+    real multiplicacao_dos_valores = primeiro_valor * segundo_valor
+    real divisao_dos_valores = primeiro_valor / segundo_valor
+    real modulo_dos_valores = primeiro_valor % segundo_valor
+
+    escreva("A soma dos valores é igual a: ", soma_dos_valores, "\n")
+    escreva("A diminuição dos valores é igual a: ", subtracao_dos_valores, "\n")
+    escreva("A multiplicação dos valores é a igual a: ", multiplicacao_dos_valores, "\n")
+    escreva("A divisão dos valores é igual a: ", divisao_dos_valores, "\n")
+    escreva("O resto da divisão entre os números é igual a: ", modulo_dos_valores)
+
+  }
+
+}
+
+// 7 - 
+programa {
+  funcao inicio() {
+    inteiro valor
+
+    escreva("Insira o valor: ")
+    leia(valor)
+
+    inteiro impar_ou_par = valor % 2
+
+    se (impar_ou_par == 0) {
+      escreva ("O número é par")
+    } senao {
+      escreva("O número é impar")
+    }
+  }
+}
+
+// 8 - 
+programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro idade
+    real altura
+
+
+    escreva("Olá, digite o seu nome: ")
+    leia(nome)
+
+    escreva("Agora, digite a sua idade: ")
+    leia(idade)
+
+    escreva("Por último, digite a sua altura: ")
+    leia(altura)
+
+    escreva("Olá ", nome, ", você tem ", idade, " anos e ", altura, " de altura.")
+
+  }
+}
+
+// 9 - 
+programa {
+  funcao inicio() {
+    inteiro ano_de_nascimento
+
+    escreva("Digite o seu ano de nascimento: ")
+    leia(ano_de_nascimento)
+
+    inteiro idade = 2024 - ano_de_nascimento
+
+    escreva("Você tem ", idade, " anos. Acertei?!")
+
+  }
+}
+
+// 10 -
+programa {
+  funcao inicio() {
+    real base_triangulo 
+    real altura_triangulo
+
+    escreva("Digite o valor da base do triângulo: ")
+    leia(base_triangulo)
+
+    escreva("Digite a altura: ")
+    leia(altura_triangulo)
+
+    real area_triangulo = (base_triangulo * altura_triangulo) / 2
+
+    escreva("A área do triangulo é igual a: ", area_triangulo)
+  }
+}
